@@ -7,9 +7,11 @@ To complete the Snap-in Development Challenge, we need to follow the steps as ou
 Below is a Python code snippet demonstrating the creation of a work item using the DevRev API. This assumes you have the necessary API token and endpoint URL.
 
 python
+```bash
 import requests
 
-# Replace with your DevRev API token and endpoint URL
+### Replace with your DevRev API token and endpoint URL
+
 API_TOKEN = 'your_api_token_here'
 API_URL = 'https://api.devrev.ai/v1/work_items'
 
@@ -31,6 +33,7 @@ if response.status_code == 201:
     print('Work item created successfully:', response.json())
 else:
     print('Failed to create work item:', response.text)
+```
 
 
 ### Step 2 (30 points): Creating a Snap-in
