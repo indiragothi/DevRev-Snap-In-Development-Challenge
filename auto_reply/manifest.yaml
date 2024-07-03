@@ -1,0 +1,19 @@
+# manifest.yaml for Auto-Reply Snap-in
+name: auto-reply
+version: 1.0.0
+description: A snap-in to auto-reply to messages outside office hours.
+inputs:
+  - name: start_time
+    description: Start time for office hours (HH:MM, 24-hour format).
+    field_type: string
+    is_required: true
+  - name: end_time
+    description: End time for office hours (HH:MM, 24-hour format).
+    field_type: string
+    is_required: true
+  - name: auto_reply_message
+    description: Auto-reply message.
+    field_type: string
+    is_required: true
+handler:
+  script: auto_reply.py

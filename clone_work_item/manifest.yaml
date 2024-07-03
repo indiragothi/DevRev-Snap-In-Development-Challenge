@@ -1,0 +1,17 @@
+# manifest.yaml for Clone Work Item Snap-in
+name: clone-work-item
+version: 1.0.0
+description: A snap-in to clone a work item (issue/ticket).
+commands:
+  - name: clone_work_item
+    description: Command to clone a work item.
+    inputs:
+      - name: work_item_id
+        description: ID of the work item to be cloned.
+        field_type: string
+        is_required: true
+    outputs:
+      - name: new_work_item_id
+        description: ID of the newly created cloned work item.
+    handler:
+      script: clone_work_item.py
