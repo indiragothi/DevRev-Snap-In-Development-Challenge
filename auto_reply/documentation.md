@@ -1,6 +1,6 @@
-### Snap-in 2: Auto-Reply to Messages Outside Office Hours ###
+### Snap-in 2: Auto-Reply to Messages Outside Office Hours 
 
-## Instructions to Install and Use the Snap-in:##
+## Instructions to Install and Use the Snap-in:
 
 1. Place the manifest.yaml and auto_reply.py files in your snap-in directory.
 2. Use the DevRev CLI to install the snap-in:
@@ -14,6 +14,6 @@
    ```
    
 
-## Screenshot/Demonstration: ##
+## Screenshot/Demonstration: 
 
 ![Auto-Reply Snap-in Demonstration](https://your-screenshot-url.com)
