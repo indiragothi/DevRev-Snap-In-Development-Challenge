@@ -45,6 +45,47 @@ For this challenge, we will implement the following snap-ins:
 1. *Command to clone a work item (issue/ticket).*
 2. *Auto-Reply to a message if it is outside office hours.*
 
+## Snap-in 1: Clone a Work Item 
+
+### Instructions to Install and Use the Snap-in:
+
+1. Place the manifest.yaml and clone_work_item.py files in your snap-in directory.
+2. Use the DevRev CLI to install the snap-in:
+   ```bash
+   devrev snap-in install /path/to/snap-in-directory
+   ```
+   
+3. Execute the snap-in command:
+   ```bash
+   devrev snap-in execute clone-work-item --inputs '{"work_item_id": "existing_work_item_id"}'
+   ```
+   
+
+### Screenshot/Demonstration: 
+
+![Clone Work Item Snap-in Demonstration](https://your-screenshot-url.com)
+
+## Snap-in 2: Auto-Reply to Messages Outside Office Hours 
+
+### Instructions to Install and Use the Snap-in:
+
+1. Place the manifest.yaml and auto_reply.py files in your snap-in directory.
+2. Use the DevRev CLI to install the snap-in:
+   ```bash
+   devrev snap-in install /path/to/snap-in-directory
+   ```
+   
+3. Configure the snap-in inputs and execute:
+   ```bash
+   devrev snap-in execute auto-reply --inputs '{"start_time": "09:00", "end_time": "17:00", "auto_reply_message": "Our office is currently closed. We will get back to you during office hours."}'
+   ```
+   
+
+### Screenshot/Demonstration: 
+
+![Auto-Reply Snap-in Demonstration](https://your-screenshot-url.com)
+
+
 ## Submission Guideline
 
 1. **Repository Link:** [GitHub Repository](https://github.com/indiragothi/DevRev-Snap-In-Development-Challenge)
