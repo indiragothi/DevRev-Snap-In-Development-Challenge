@@ -103,7 +103,7 @@ def main(inputs):
 
 ### Screenshot/Demonstration: 
 
-![Clone Work Item Snap-in Demonstration](https://your-screenshot-url.com)
+![Clone Work Item Snap-in Demonstration](./clone_work_item/clone-of-work-item.jpg)
 
 
 
@@ -144,7 +144,7 @@ def main(inputs):
 
 ### Screenshot/Demonstration: 
 
-![Auto-Reply Snap-in Demonstration](https://your-screenshot-url.com)
+![Auto-Reply Snap-in Demonstration](./auto_reply/auto-reply.jpg)
 
 
 

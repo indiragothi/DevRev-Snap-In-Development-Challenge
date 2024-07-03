@@ -16,4 +16,4 @@
 
 ### Screenshot/Demonstration: 
 
-![Auto-Reply Snap-in Demonstration](https://your-screenshot-url.com)
+![Auto-Reply Snap-in Demonstration](./auto-reply.jpg)

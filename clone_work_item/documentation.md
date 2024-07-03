@@ -16,4 +16,4 @@
 
 ### Screenshot/Demonstration: 
 
-![Clone Work Item Snap-in Demonstration](https://your-screenshot-url.com)
+![Clone Work Item Snap-in Demonstration](./clone-of-work-item.jpg)
