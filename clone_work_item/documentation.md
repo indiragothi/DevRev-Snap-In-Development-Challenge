@@ -1,6 +1,6 @@
-### Snap-in 1: Clone a Work Item 
+## Snap-in 1: Clone a Work Item 
 
-## Instructions to Install and Use the Snap-in:
+### Instructions to Install and Use the Snap-in:
 
 1. Place the manifest.yaml and clone_work_item.py files in your snap-in directory.
 2. Use the DevRev CLI to install the snap-in:
@@ -14,6 +14,6 @@
    ```
    
 
-## Screenshot/Demonstration: 
+### Screenshot/Demonstration: 
 
 ![Clone Work Item Snap-in Demonstration](https://your-screenshot-url.com)
