@@ -2,7 +2,7 @@
 
 To complete the Snap-in Development Challenge, we need to follow the steps as outlined and provide the necessary code snippets, documentation, and demonstrations. Here's the full solution in the required format:
 
-### Step 1 (10 points): Utilizing the DevRev API
+### Step 1 : Utilizing the DevRev API
 
 #### Task: Create a Work Item
 
@@ -38,7 +38,7 @@ else:
 ```
 
 
-### Step 2 (30 points): Creating a Snap-in
+### Step 2 : Creating a Snap-in
 
 #### Task: Create and Install a Snap-in
 
