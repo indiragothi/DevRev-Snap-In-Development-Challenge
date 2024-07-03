@@ -99,11 +99,6 @@ def main(inputs):
    ```bash
    devrev snap-in execute clone-work-item --inputs '{"work_item_id": "existing_work_item_id"}'
    ```
-   
-
-### Screenshot/Demonstration: 
-
-![Clone Work Item Snap-in Demonstration](./clone_work_item/clone-of-work-item.jpg)
 
 
 
@@ -140,11 +135,6 @@ def main(inputs):
    ```bash
    devrev snap-in execute auto-reply --inputs '{"start_time": "09:00", "end_time": "17:00", "auto_reply_message": "Our office is currently closed. We will get back to you during office hours."}'
    ```
-   
-
-### Screenshot/Demonstration: 
-
-![Auto-Reply Snap-in Demonstration](./auto_reply/auto-reply.jpg)
 
 
 
