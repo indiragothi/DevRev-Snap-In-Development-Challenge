@@ -1,6 +1,6 @@
 # DevRev Snap-In Development Challenge
-
-To complete the Snap-in Development Challenge, we need to follow the steps as outlined and provide the necessary code snippets, documentation, and demonstrations. Here's the full solution in the required format:
+ 
+To complete the Snap-in Development Challenge, I developed a comprehensive solution and uploaded the full code to GitHub, including detailed documentation and code snippets for easy integration and functionality enhancement:
 
 ### Step 1 : Utilizing the DevRev API
 
