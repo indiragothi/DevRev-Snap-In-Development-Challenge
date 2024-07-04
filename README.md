@@ -49,43 +49,6 @@ For this challenge, we will implement the following snap-ins:
 
 ## Snap-in 1: Clone a Work Item 
 
-```bash
-# clone_work_item.py
-import requests
-import json
-
-def main(inputs):
-    API_TOKEN = 'your_api_token_here'
-    API_URL = 'https://api.devrev.ai/v1/work_items'
-    work_item_id = inputs['work_item_id']
-
-    headers = {
-        'Authorization': f'Bearer {API_TOKEN}',
-        'Content-Type': 'application/json'
-    }
-
-    # Get the existing work item
-    response = requests.get(f'{API_URL}/{work_item_id}', headers=headers)
-    if response.status_code != 200:
-        return {'error': 'Failed to fetch work item'}
-
-    work_item = response.json()
-
-    # Create a new work item with the same details
-    data = {
-        'title': f"Clone of {work_item['title']}",
-        'description': work_item['description'],
-        'type': work_item['type'],
-        'priority': work_item['priority']
-    }
-
-    response = requests.post(API_URL, headers=headers, json=data)
-    if response.status_code == 201:
-        return {'new_work_item_id': response.json()['id']}
-    else:
-        return {'error': 'Failed to create cloned work item'}
-```
-
 
 ### Instructions to Install and Use the Snap-in:
 
@@ -104,24 +67,6 @@ def main(inputs):
 
 ## Snap-in 2: Auto-Reply to Messages Outside Office Hours 
 
-```bash
-# auto_reply.py
-import datetime
-
-def main(inputs):
-    start_time = inputs['start_time']
-    end_time = inputs['end_time']
-    auto_reply_message = inputs['auto_reply_message']
-
-    now = datetime.datetime.now().time()
-    start = datetime.datetime.strptime(start_time, "%H:%M").time()
-    end = datetime.datetime.strptime(end_time, "%H:%M").time()
-
-    if now < start or now > end:
-        return {'message': auto_reply_message}
-    else:
-        return {'message': 'Within office hours, no auto-reply needed'}
-```
 
 ### Instructions to Install and Use the Snap-in:
 
